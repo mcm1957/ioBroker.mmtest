@@ -1,0 +1,44 @@
+{
+    "expert": "no",
+    "cli": false,
+    "adapterName": "mmtest",
+    "title": "MyTest",
+    "keywords": "",
+    "contributors": "",
+    "features": [
+        "adapter"
+    ],
+    "adminFeatures": [],
+    "type": "general",
+    "startMode": "daemon",
+    "connectionType": "cloud",
+    "dataSource": "assumption",
+    "connectionIndicator": "no",
+    "adapterSettings": [
+        {
+            "key": "option1",
+            "defaultValue": true,
+            "inputType": "checkbox"
+        },
+        {
+            "key": "option2",
+            "defaultValue": "42",
+            "inputType": "text"
+        }
+    ],
+    "language": "JavaScript",
+    "adminUi": "json",
+    "releaseScript": "yes",
+    "indentation": "Space (4)",
+    "quotes": "single",
+    "tools": [
+        "ESLint",
+        "type checking"
+    ],
+    "authorName": "Martin M.",
+    "authorGithub": "mcm1957",
+    "authorEmail": "mcm57@gmx.at",
+    "license": "MIT License",
+    "target": "github",
+    "creatorVersion": "2.6.5"
+}
